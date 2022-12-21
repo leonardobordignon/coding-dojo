@@ -1,46 +1,49 @@
-# Getting Started with Create React App
+<p align="center" style="font-size:24px; font-weight:bold; padding: 20px">
+         Junto Coding Dojo
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Modalidade Dojo Randori
 
-## Available Scripts
+![alt text](https://miro.medium.com/max/720/1*GZ7KNjFE_fBlWsWpasi1GA.webp)
 
-In the project directory, you can run:
+- Praticar conhecimentos já aprendidos
 
-### `yarn start`
+- Todos participam ativamente na programação
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Há muita troca de conhecimento entre os participantes
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### Proposta
 
-### `yarn test`
+Utilizaremos o formato Randori:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Com duas duplas de piloto(Front-end) e copiloto (Back-end)
 
-### `yarn build`
+- Troca de papéis ou troca com integrantes da plateia.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- A plateia que poderá ser consultada/interagir a qualquer momento.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Coding
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Implementar Front End em ReactJS com:
 
-### `yarn eject`
+- Um Input para a busca de um endereço informando apenas o CEP (válido) para a API do ViaCep
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Popular um Form com os dados retornados da API ViaCep
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Exibir um mapa utilizando Google Maps com a localização do endereço encontrado.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### Utilizar
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- TDD First
 
-## Learn More
+- TypeScript
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Layout - Junto Design System
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Links
+
+- [Story Book](https://junto-design-system-qas.juntoseguros.cloud/)
+
+- [Via CEP](https://viacep.com.br/)
+
+- [Maps](https://www.google.com.br/maps/place/Rua+Visconde+de+N%C3%A1car+-+Centro,+Curitiba+1440+PR)
